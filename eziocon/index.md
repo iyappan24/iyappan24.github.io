@@ -4,6 +4,7 @@
 ---
 
 <h1 id="eziocon--a-python-sdk-for-sql">Eziocon : A Python SDK for SQL</h1>
+<p><img src="https://drive.google.com/uc?id=1vL42kbCl6D5zshCbMMyI5ncEsiACuaeq&amp;export=download" alt="enter image description here"></p>
 <h3 id="a-wrapper-that-allows-to-perform-basic-operations-of-fetching-insertion-and-updation-in-all-kinds-of-databases-which-have-sql-like-schema.">A wrapper that allows to perform basic operations of fetching insertion and updation in all kinds of databases which have SQL like schema.</h3>
 <hr>
 <h3 id="table-of-contents-">Table of Contents :</h3>
@@ -12,16 +13,16 @@
 <li><a href="https://iyappan24.github.io/eziocon/#databases-covered-">Databases Covered</a></li>
 <li><a href="https://iyappan24.github.io/eziocon/#dependencies">Dependencies</a></li>
 <li><a href="https://iyappan24.github.io/eziocon/#functions">Functions</a><br>
-4.1 <a href="https://iyappan24.github.io/eziocon/#count">count</a><br>
-4.2 fetchone<br>
-4.3 fetchmany<br>
-4.4  insert<br>
-4.5 update</li>
-<li>Examples</li>
-<li>Github Links and Referrences</li>
-<li>Future Enhancements</li>
+4.1 <a href="https://iyappan24.github.io/eziocon/#count-">count</a><br>
+4.2 <a href="https://iyappan24.github.io/eziocon/#fetchone-">fetchOne</a><br>
+4.3 <a href="https://iyappan24.github.io/eziocon/#fetchmany-">fetchMany</a><br>
+4.4  <a href="https://iyappan24.github.io/eziocon/#insert-">insert</a><br>
+4.5 <a href="https://iyappan24.github.io/eziocon/#update-">update</a></li>
+<li><a href="https://iyappan24.github.io/eziocon/#examples-">Examples</a></li>
+<li><a href="https://iyappan24.github.io/eziocon/#github-links-and-support-">Github Links and Support</a></li>
+<li><a href="https://iyappan24.github.io/eziocon/#future-enhancements-">Future Enhancements</a></li>
 </ol>
-<h1 id="section"></h1>
+<hr>
 <h3 id="installation-procedure">Installation procedure</h3>
 <p>The python package can be installated using the following command using pip in your system. It requires a python version more than or equal to <strong>python 3.5.4</strong>. Information about other dependencies are given in the following sections.</p>
 <blockquote>
@@ -84,6 +85,13 @@ This enables the user to use these member functions for data migrations across d
 <p>Method to return a group of  records given table name  , column name ,SQL where clause and number of rows</p>
 <h4 id="insert-">Insert :</h4>
 <p>Method to insert a bunch of records  or a single record given the table name  and data</p>
-<h4 id="update-">Update :</h4>
+<h4 id="update-">update :</h4>
 <p>Method to update a group of records statisfying the where clause condition  given table name, Values that must be updated and SQL where clause</p>
+<hr>
+<h3 id="examples">Examples</h3>
+<hr>
+<h3 id="github-links-and-support">Github Links and Support</h3>
+<hr>
+<h3 id="future-enhancements">Future Enhancements</h3>
+<hr>
 
