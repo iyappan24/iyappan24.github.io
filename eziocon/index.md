@@ -11,8 +11,8 @@
 <li><a href="https://iyappan24.github.io/eziocon/#installation-procedure">Installation Procedure</a></li>
 <li><a href="https://iyappan24.github.io/eziocon/#databases-covered-">Databases Covered</a></li>
 <li><a href="https://iyappan24.github.io/eziocon/#dependencies">Dependencies</a></li>
-<li>Functions<br>
-4.1 count<br>
+<li><a href="https://iyappan24.github.io/eziocon/#functions">Functions</a><br>
+4.1 <a href="https://iyappan24.github.io/eziocon/#count">count</a><br>
 4.2 fetchone<br>
 4.3 fetchmany<br>
 4.4  insert<br>
@@ -73,4 +73,17 @@
 </ul>
 </blockquote>
 <hr>
+<h3 id="functions">Functions</h3>
+<p>The following functions are the wrappers which will be common across all the databases covered by the package w.r.t. to return types and function arguments.<br>
+This enables the user to use these member functions for data migrations across different SQL platforms via python interface.</p>
+<h4 id="count-">Count :</h4>
+<p>Method to return the count of records given table name and SQL where clause</p>
+<h4 id="fetchone-">fetchOne :</h4>
+<p>Method to return a single record given table name , column name and SQL where clause</p>
+<h4 id="fetchmany-">fetchMany :</h4>
+<p>Method to return a group of  records given table name  , column name ,SQL where clause and number of rows</p>
+<h4 id="insert-">Insert :</h4>
+<p>Method to insert a bunch of records  or a single record given the table name  and data</p>
+<h4 id="update-">Update :</h4>
+<p>Method to update a group of records statisfying the where clause condition  given table name, Values that must be updated and SQL where clause</p>
 
