@@ -6,11 +6,11 @@
 <h1 id="eziocon--a-python-sdk-for-sql">Eziocon : A Python SDK for SQL</h1>
 <h3 id="a-wrapper-that-allows-to-perform-basic-operations-of-fetching-insertion-and-updation-in-all-kinds-of-databases-which-have-sql-like-schema.">A wrapper that allows to perform basic operations of fetching insertion and updation in all kinds of databases which have SQL like schema.</h3>
 <hr>
-<p>**Table of Contents : **</p>
+<h3 id="table-of-contents-">Table of Contents :</h3>
 <ol>
-<li>Installation Procedure</li>
-<li>Databases covered</li>
-<li>Dependencies</li>
+<li><a href="https://github.com/iyappan24/iyappan24.github.io/blob/master/eziocon/index.md#installation-procedure">Installation Procedure</a></li>
+<li><a href="https://github.com/iyappan24/iyappan24.github.io/blob/master/eziocon/index.md#databases-covered-">Databases Covered</a></li>
+<li><a href="https://github.com/iyappan24/iyappan24.github.io/blob/master/eziocon/index.md#dependencies">Dependencies</a></li>
 <li>Functions<br>
 4.1 count<br>
 4.2 fetchone<br>
