@@ -98,8 +98,9 @@ SQL query : Where clause filter</li>
 </dl>
 <p><strong>Returns :</strong> Count : Integer</p>
 <h4 id="fetchone-">fetchOne :</h4>
+<p>Method to return a single record given table name , column name and SQL where clause</p>
 <dl>
-<dt>Method to return a single record given table name , column name and SQL where clause</dt>
+<dt><strong>Parameters</strong>:</dt>
 <dd>
 <blockquote>
 <ul>
