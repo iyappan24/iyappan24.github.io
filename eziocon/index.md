@@ -79,19 +79,165 @@
 This enables the user to use these member functions for data migrations across different SQL platforms via python interface.</p>
 <h4 id="count-">Count :</h4>
 <p>Method to return the count of records given table name and SQL where clause</p>
+<dl>
+<dt><strong>Parameters:</strong></dt>
+<dd>
+<blockquote>
+<ul>
+<li><strong>tablename</strong> : String :<br>
+Name of the table in the database</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>condition</strong> : String :<br>
+SQL query : Where clause filter</li>
+</ul>
+</blockquote>
+</dd>
+</dl>
+<p><strong>Returns :</strong> Count : Integer</p>
 <h4 id="fetchone-">fetchOne :</h4>
-<p>Method to return a single record given table name , column name and SQL where clause</p>
+<dl>
+<dt>Method to return a single record given table name , column name and SQL where clause</dt>
+<dd>
+<blockquote>
+<ul>
+<li><strong>tablename</strong> : String<br>
+Name of the table in the database</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>condition</strong> : String<br>
+SQL query : Where clause filter</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>columns</strong> : Iterator of String : (List , tuple or Set)<br>
+Any of the above mentioned iterators with column names of the table as values</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>format</strong> : Integer : Default Value 1<br>
+Specifies the format in which the result has to be returned. For getting the results in Dataframe value must be 1 and for getting the results in Dictionaries  the value must be 2.</li>
+</ul>
+</blockquote>
+</dd>
+</dl>
+<p><strong>Returns</strong> : Dataframe or Dictionaries</p>
 <h4 id="fetchmany-">fetchMany :</h4>
 <p>Method to return a group of  records given table name  , column name ,SQL where clause and number of rows</p>
+<dl>
+<dt><strong>Parameters</strong>:</dt>
+<dd>
+<blockquote>
+<ul>
+<li><strong>tablename</strong> : String<br>
+Name of the table in the database</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>condition</strong> : String<br>
+SQL query : Where clause filter</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>columns</strong> : Iterator of String : (List , tuple or Set)<br>
+Any of the above mentioned iterators with column names of the table as values</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>rows</strong> : Integer: Default Value = -1<br>
+Number of rows that have to fetched from the database. Must be greater than 1. The default value -1 specifies fethc all the rows for the given query.</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>format</strong> : Integer : Default Value 1<br>
+Specifies the format in which the result has to be returned. For getting the results in Dataframe value must be 1 and for getting the results in Dictionaries  the value must be 2.</li>
+</ul>
+</blockquote>
+</dd>
+</dl>
+<p><strong>Returns</strong> : Dataframe or Dictionaries</p>
 <h4 id="insert-">Insert :</h4>
 <p>Method to insert a bunch of records  or a single record given the table name  and data</p>
+<dl>
+<dt><strong>Parameters</strong>:</dt>
+<dd>
+<blockquote>
+<ul>
+<li><strong>tablename</strong> : String<br>
+Name of the table in the database</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>objects</strong> : Dictionary or List of Dictionaries : {‘column name’ : Value}<br>
+For inserting a single record pass a Dictionary with the above mentioned format and For inserting a bulk bunch of records into the Table pass a list of Dictionaries.</li>
+</ul>
+</blockquote>
+</dd>
+</dl>
+<p><strong>Returns</strong> : True : Boolean</p>
 <h4 id="update-">update :</h4>
 <p>Method to update a group of records statisfying the where clause condition  given table name, Values that must be updated and SQL where clause</p>
+<dl>
+<dt><strong>Parameters</strong>:</dt>
+<dd>
+<blockquote>
+<ul>
+<li><strong>tablename</strong> : String<br>
+Name of the table in the database</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>updations</strong> : Dictionary  : {‘column name’ : Value}<br>
+A Dictionary object which has the list of columns to be updated as the key and changes  of the corresponding the  columns as the respective value.</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>condition</strong> : String<br>
+SQL query : Where clause filter</li>
+</ul>
+</blockquote>
+</dd>
+</dl>
+<p><strong>Returns</strong> : True : Boolean</p>
 <hr>
 <h3 id="examples">Examples</h3>
+<p>This  <a href="https://www.iyappanatwork.info/post/python-wrapper-for-sql">Blog post</a> will give you a detail walk through of how to use and  manipulate data using the above mentioned functions.</p>
+<p><strong>Contents</strong>:</p>
+<ol>
+<li>Filtering and search operations in table</li>
+<li>Bulk insert and insert operations in table</li>
+<li>Best Scnearios  and practices to use these functions</li>
+<li>Different Update variations using various where clauses</li>
+</ol>
 <hr>
 <h3 id="github-links-and-support">Github Links and Support</h3>
+<blockquote>
+<ul>
+<li><strong><a href="https://github.com/iyappan24/eziocon/issues">Issue Tracker</a></strong></li>
+<li><strong><a href="https://github.com/iyappan24/eziocon">Github Repository</a></strong></li>
+</ul>
+</blockquote>
 <hr>
 <h3 id="future-enhancements">Future Enhancements</h3>
+<p>The following enhancements will be implemented:</p>
+<ul>
+<li>Support for PostgreSQL and Hive</li>
+<li>Creation of Tables using Python objects and custom classes</li>
+<li>Dropping and Truncate Tables</li>
+<li>Custom operators and operator overloading on python objects for improvising the <strong>condition</strong> argument</li>
+</ul>
 <hr>
 
