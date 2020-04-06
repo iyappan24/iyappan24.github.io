@@ -18,9 +18,9 @@
 4.3 <a href="https://iyappan24.github.io/eziocon/#fetchmany-">fetchMany</a><br>
 4.4  <a href="https://iyappan24.github.io/eziocon/#insert-">insert</a><br>
 4.5 <a href="https://iyappan24.github.io/eziocon/#update-">update</a></li>
-<li><a href="https://iyappan24.github.io/eziocon/#examples-">Examples</a></li>
-<li><a href="https://iyappan24.github.io/eziocon/#github-links-and-support-">Github Links and Support</a></li>
-<li><a href="https://iyappan24.github.io/eziocon/#future-enhancements-">Future Enhancements</a></li>
+<li><a href="https://iyappan24.github.io/eziocon/#examples">Examples</a></li>
+<li><a href="https://iyappan24.github.io/eziocon/#github-links-and-support">Github Links and Support</a></li>
+<li><a href="https://iyappan24.github.io/eziocon/#future-enhancements">Future Enhancements</a></li>
 </ol>
 <hr>
 <h3 id="installation-procedure">Installation procedure</h3>
