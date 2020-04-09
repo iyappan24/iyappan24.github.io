@@ -116,13 +116,13 @@ SQL query : Where clause filter</li>
 </blockquote>
 <blockquote>
 <ul>
-<li><strong>columns</strong> : Iterator of String : (List , tuple or Set)<br>
+<li><strong>columns</strong> : Iterator of String : (List or tuple )<br>
 Any of the above mentioned iterators with column names of the table as values</li>
 </ul>
 </blockquote>
 <blockquote>
 <ul>
-<li><strong>format</strong> : Integer : Default Value 1<br>
+<li><strong>return_type</strong> : Integer : Default Value 1<br>
 Specifies the format in which the result has to be returned. For getting the results in Dataframe value must be 1 and for getting the results in Dictionaries  the value must be 2.</li>
 </ul>
 </blockquote>
@@ -148,7 +148,7 @@ SQL query : Where clause filter</li>
 </blockquote>
 <blockquote>
 <ul>
-<li><strong>columns</strong> : Iterator of String : (List , tuple or Set)<br>
+<li><strong>columns</strong> : Iterator of String : (List or tuple )<br>
 Any of the above mentioned iterators with column names of the table as values</li>
 </ul>
 </blockquote>
@@ -160,7 +160,7 @@ Number of rows that have to fetched from the database. Must be greater than 1. T
 </blockquote>
 <blockquote>
 <ul>
-<li><strong>format</strong> : Integer : Default Value 1<br>
+<li><strong>return_type</strong> : Integer : Default Value 1<br>
 Specifies the format in which the result has to be returned. For getting the results in Dataframe value must be 1 and for getting the results in Dictionaries  the value must be 2.</li>
 </ul>
 </blockquote>
