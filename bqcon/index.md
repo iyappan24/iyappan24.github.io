@@ -9,7 +9,7 @@
 1. [Installation Procedure](https://iyappan24.github.io/bqcon/#installation-procedure)
 2. [Dependencies](https://iyappan24.github.io/bqcon/#dependencies)
 3. [Functions](https://iyappan24.github.io/bqcon/#functions)
-3.1.[config](https://iyappan24.github.io/bqcon/#config--) 
+	3.1.[config](https://iyappan24.github.io/bqcon/#config--)<br> 
 3.2 [count](https://iyappan24.github.io/bqcon/#count--)
 3.3[ fetchone](https://iyappan24.github.io/bqcon/#fetchone)
 3.4[ fetchmany](https://iyappan24.github.io/bqcon/#fetchmany)
