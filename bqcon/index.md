@@ -56,12 +56,12 @@ Method to return the count of the rows of the given table , given the table, the
 
 **Parameters**:
 
-:	 > - **dataset**  
-	String : Dataset name  
-	 > - **tablename**  
-	 String : table name under the dataset  
-	 > - **condition** 
-	 String : big query where clause
+> - **dataset**  
+String : Dataset name  
+> - **tablename**  
+String : table name under the dataset  
+> - **condition** 
+String : big query where clause
 	 
 **Returns :** Count : Integer 
 
