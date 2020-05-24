@@ -72,13 +72,13 @@ Method to return the first record for the given condition(optional), tablename a
 **Parameters**:
 
  > - **dataset**  
-	String : Dataset name  
-	 > - **tablename**  
-	 String : table name under the dataset  
-	 > - **columns** 
-	  Iterator of Strings list or tuple or set of Strings (columns names) in the table you want to view
-	 > - **condition** 
-	 String : big query where clause
+String : Dataset name  
+> - **tablename**  
+String : table name under the dataset  
+> - **columns** 
+Iterator of Strings list or tuple or set of Strings (columns names) in the table you want to view
+> - **condition** 
+String : big query where clause
 
 **Returns :** Result : Dataframe 
 
@@ -88,16 +88,16 @@ Method to return the records for the given condition(optional), rows (optional )
 
 **Parameters**:
 
- > - **dataset**  
-	String : Dataset name  
-	 > - **tablename**  
-	 String : table name under the dataset  
-	 > - **columns** 
-	  Iterator of Strings list or tuple or set of Strings (columns names) in the table you want to view
-	 > - **condition** 
-	 String : big query where clause
-	 > - **rows** 
-	  Integer : -1 (Fetch all records) else specifies the given records
+> - **dataset**  
+ String : Dataset name  
+> - **tablename**  
+String : table name under the dataset  
+> - **columns** 
+Iterator of Strings list or tuple or set of Strings (columns names) in the table you want to view
+> - **condition** 
+String : big query where clause
+> - **rows** 
+Integer : -1 (Fetch all records) else specifies the given records
 
 **Returns :** Result : Dataframe 
 
@@ -125,7 +125,7 @@ Method to update values givne the updations , tablename , dataset  and condition
 
 > - **dataset** 
  String : Data set name  
-> - ** tablename **
+> - **tablename**
   String : Table name of the DB  
 **updations**
  > - Object : Dictionary : Format : {column:value}  
@@ -141,7 +141,7 @@ Method to delete table from a given dataset in google big query
 
 > - **dataset** 
  String : Data set name  
-> - ** tablename **
+> - **tablename**
   String : Table name of the DB  
 
 **Returns :**  True : Boolean on sucessful deletion  else wil raise a value error 
