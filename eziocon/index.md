@@ -77,6 +77,29 @@
 <h3 id="functions">Functions</h3>
 <p>The following functions are the wrappers which will be common across all the databases covered by the package w.r.t. to return types and function arguments.<br>
 This enables the user to use these member functions for data migrations across different SQL platforms via python interface.</p>
+<h3 id="setconnect-">setConnect :</h3>
+<p>Method to take in the following inputs instantiate the connection object to the database</p>
+<p><strong>Mysql Parameters</strong> :</p>
+<blockquote>
+<ul>
+<li>Hostname</li>
+<li>Port</li>
+<li>database name</li>
+<li>username</li>
+<li>password</li>
+</ul>
+</blockquote>
+<p><strong>Oracle Parameters</strong>:</p>
+<blockquote>
+<ul>
+<li>hosname</li>
+<li>port</li>
+<li>username</li>
+<li>password</li>
+<li>SID</li>
+</ul>
+</blockquote>
+<p><strong>Returns</strong>: None : Raise Value error if in case of any error</p>
 <h4 id="count-">Count :</h4>
 <p>Method to return the count of records given table name and SQL where clause</p>
 <dl>
