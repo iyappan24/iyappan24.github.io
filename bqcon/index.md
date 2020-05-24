@@ -6,20 +6,7 @@
 ### A wrapper that allows to perform basic operations of fetching insertion and updations in Google Big query. 
 
 ### Table of Contents : 
-1. [Installation Procedure](https://iyappan24.github.io/bqcon/#installation-procedure)
-2. [Dependencies](https://iyappan24.github.io/bqcon/#dependencies)
-3. [Functions](https://iyappan24.github.io/bqcon/#functions)
-	3.1.[config](https://iyappan24.github.io/bqcon/#config--) 
-	3.2 [count](https://iyappan24.github.io/bqcon/#count--)
-	3.3[ fetchone](https://iyappan24.github.io/bqcon/#fetchone)
-	3.4[ fetchmany](https://iyappan24.github.io/bqcon/#fetchmany)
-	3.5[ insert](https://iyappan24.github.io/bqcon/#insert)
-	3.6[ update](https://iyappan24.github.io/bqcon/#update-)
-	3.7 [ delete_table](https://iyappan24.github.io/bqcon/#delete_table)
-	3.8 [ delete_dataset](https://iyappan24.github.io/bqcon/#delete_dataset)
-	3.9 [ customquery](https://iyappan24.github.io/bqcon/#customquery)
-4. [Examples](https://iyappan24.github.io/bqcon/#examples)
-5. [Github Links and Support](https://iyappan24.github.io/bqcon/#github-links-and-support)
+
 
 ### Installation procedure
 The python package can be installated using the following command using pip in your system. It requires a python version more than or equal to **python 3.5.4**. Information about other dependencies are given in the following sections.
